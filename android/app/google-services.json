@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520692488475",
+    "project_id": "flutter-video-project",
+    "storage_bucket": "flutter-video-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520692488475:android:b1942f446057ffdf1edbbe",
+        "android_client_info": {
+          "package_name": "com.thinkzonellc.flutter_video_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrDwitWG6uoCmnp9X5FqAgMUGqk-r6s7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
