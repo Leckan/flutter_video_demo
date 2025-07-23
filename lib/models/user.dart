@@ -1,6 +1,4 @@
-
-
-import 'package:flutter_video_demo/utils/auth_provider.dart';
+import '../utils/auth_provider.dart';
 
 class User {
   final String id;
