@@ -26,7 +26,7 @@ class VideoUploadService {
       );
 
       final storage = StorageApi(client);
-      final bucket = 'flutter-challenge-uploads';
+      const bucket = 'flutter-challenge-uploads';
       final timestamp = DateTime.now().millisecondsSinceEpoch;
       final filename = p.basename(videoFile.path);
       final gcsPath = 'uploads/$userId/$timestamp-$filename';
@@ -35,7 +35,7 @@ class VideoUploadService {
       final media = Media(stream, videoFile.lengthSync());
 
       await storage.objects.insert(
-        null,
+       Object(),
         bucket,
         name: gcsPath,
         uploadMedia: media,

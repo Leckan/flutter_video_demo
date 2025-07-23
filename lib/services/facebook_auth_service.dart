@@ -11,7 +11,7 @@ class FacebookAuthService {
       final result = await FacebookAuth.instance.login();
       if (result.status != LoginStatus.success) return null;
 
-      final credential = fb.FacebookAuthProvider.credential(result.accessToken!.token);
+      final credential = fb.FacebookAuthProvider.credential(result.accessToken!.tokenString);
       final userCredential = await _auth.signInWithCredential(credential);
       final user = userCredential.user;
       if (user == null) return null;
