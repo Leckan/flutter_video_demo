@@ -1,5 +1,6 @@
-enum AuthProvider { google, facebook, email }
-enum UploadStatus { uploading, completed, failed }
+
+
+import 'package:flutter_video_demo/utils/auth_provider.dart';
 
 class User {
   final String id;
