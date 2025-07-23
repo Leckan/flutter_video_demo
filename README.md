@@ -48,4 +48,3 @@
 3. Test notifications:
    - Verify permission request
    - Confirm notification on upload completion
-```
